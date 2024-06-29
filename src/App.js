@@ -6,7 +6,7 @@ function App() {
   const [userInput, setUserInput] = useState('');
   const [responses, setResponses] = useState([]);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await fetch('https://backendhyperlex.vercel.app/api/chat', {
