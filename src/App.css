@@ -17,7 +17,6 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* padding: 20px; */
   background-color: #1E1E1E;
 }
 
@@ -48,7 +47,7 @@ html, body {
 }
 
 .dropdown-button::after {
-  content: '\2192'; /* Down arrow */
+  content: '\2192'; 
   font-size: 20px;
   font-weight: bolder;
 }
@@ -56,11 +55,11 @@ html, body {
 .dropdown-menu {
   position: absolute;
   top: -15px;
-  left: 120px; /* Adjust this value to position the menu further right if needed */
+  left: 120px; 
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 60vw; /* Adjust width as needed */
+  width: 60vw; 
   height: 50px;
   padding-left: 2px;
   color: #F8EDFF;
@@ -104,12 +103,13 @@ div.option3 {
   margin: 0 3vw;
   background-color: #333533;
   border-radius: 15px;
-  bottom: 0;
+  bottom: 2.5vh;
+  width: 94vw;
 }
 
 .input-textarea {
-  width: 90vw;
-  height: 45px;
+  width: 100vw;
+  height: 10vh;
   background-color: #333533;
   padding: 15px;
   outline: #333533;
@@ -127,9 +127,9 @@ div.option3 {
 .submit-button {
   margin: 20px;
   margin-bottom: 15px;
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
   font-size: 40px;
   cursor: pointer;
   width: 50px;
@@ -169,11 +169,11 @@ button.submit-button{
 }
 
 .response-text {
-  white-space: pre-wrap; /* This preserves line breaks in the response text */
+  white-space: pre-wrap; 
 }
 
 .project-name {
-  font-size: 36px;
+  font-size: calc(3vh + 3.5vw);
   font-weight: bold;
   color: #F8EDFF;
 }
@@ -181,5 +181,6 @@ button.submit-button{
 .footer {
   text-align: center;
   margin-top: 20px;
+  font-size: calc(1vh + 1.5vw); 
   color: #F8EDFF;
 }
