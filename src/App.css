@@ -1,4 +1,15 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 
 .App {
   font-family: Arial, sans-serif;
@@ -6,7 +17,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #1E1E1E;
 }
 
@@ -87,16 +98,17 @@ div.option3 {
 
 .input-area {
   display: flex;
-  flex-direction: row;
+  position: absolute;
   align-items: center;
-  margin-top: 20px;
+  justify-content: center;  
+  margin: 0 3vw;
   background-color: #333533;
   border-radius: 15px;
-  margin-bottom: 20px;
+  bottom: 0;
 }
 
 .input-textarea {
-  width: 95vw;
+  width: 90vw;
   height: 45px;
   background-color: #333533;
   padding: 15px;
